@@ -1,0 +1,162 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "vim.autoindent": true,
+    "vim.easymotion": true,
+    "vim.easymotionDimBackground": true,
+    "vim.incsearch": true,
+    "vim.inccommand": "replace",
+    "vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+    "vim.ignorecase": true,
+    "vim.cursorStylePerMode.insert": "line",
+    "vim.cursorStylePerMode.normal": "block",
+    "vim.cursorStylePerMode.visual": "underline",
+    "vim.cursorStylePerMode.replace": "block-outline",
+    "vim.cursorStylePerMode.visualblock": "block",
+    "vim.handleKeys": {
+        "<tab>": false,
+        "<Shift-tab>": false,
+        "<C-t>": false,
+    },
+    "vim.overrideCopy": true,
+    "vim.useSystemClipboard": true,
+    "vim.highlightedyank.enable": true,
+    "terminal.explorerKind": "external",
+    "terminal.external.linuxExec": "kitty",
+    "vim.statusBarColorControl": true,
+    "vim.mouseSelectionGoesIntoVisualMode": true,
+    "vim.showcmd": true,
+    "vim.showmodename": true,
+    "vim.smartcase": true,
+    "vim.surround": true,
+    "vim.argumentObjectClosingDelimiters": [
+        ")",
+        "]"
+    ],
+    "vim.argumentObjectOpeningDelimiters": [
+        "(",
+        "["
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<ESC>"
+            ]
+        },
+        {
+            "before": [
+                "j",
+                "l"
+            ],
+            "after": [
+                "<ESC>",
+                "v"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "y",
+                "f",
+                "s"
+            ],
+            "after": [
+                "y",
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "y",
+                "t",
+                "e"
+            ],
+            "after": [
+                "y",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "f",
+                "s"
+            ],
+            "after": [
+                "d",
+                "^"
+            ]
+        },
+        {
+            "before": [
+                "d",
+                "t",
+                "e"
+            ],
+            "after": [
+                "d",
+                "$"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "saveAll"
+            ]
+        },
+        {
+            "before":["s"],
+            "after":[""]
+        }
+    ],
+    "vim.visualModeKeyBindings": [
+        {
+            "before": [
+                ">"
+            ],
+            "commands": [
+                "editor.action.indentLines"
+            ]
+        },
+        {
+            "before": [
+                "<"
+            ],
+            "commands": [
+                "editor.action.outdentLines"
+            ]
+        },
+        {
+            "before":["i"],
+            "after":["<ESC>", "i"]
+        },
+        {
+            "before":["n"],
+            "after": ["<ESC>"]
+        }
+    ],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#5f00af",
+        "statusBar.noFolderBackground": "#5f00af",
+        "statusBar.debuggingBackground": "#5f00af"
+    }
+}
